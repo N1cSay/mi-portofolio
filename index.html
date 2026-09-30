@@ -1,15 +1,64 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-  <title>Mi Portfolio</title>
-  <style>
-    body { font-family: Arial; text-align: center; margin-top: 100px; background: #f4f4f4; }
-    h1 { color: #2c3e50; }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nicolas | Futuro Programador</title>
+<style>
+  *{margin:0;padding:0;box-sizing:border-box;font-family:Arial, sans-serif}
+  body{background:#0f172a;color:#e2e8f0;line-height:1.6}
+  header{text-align:center;padding:80px 20px;background:linear-gradient(135deg,#1e40af,#06b6d4)}
+  header h1{font-size:38px;margin-bottom:10px}
+  header p{font-size:18px;opacity:0.9}
+  .container{max-width:800px;margin:auto;padding:30px 20px}
+  .card{background:#1e293b;padding:25px;border-radius:15px;margin-bottom:25px;box-shadow:0 5px 20px rgba(0,0,0,0.3)}
+  h2{color:#38bdf8;margin-bottom:15px}
+  .skills span{display:inline-block;background:#334155;padding:8px 15px;border-radius:20px;margin:5px;font-size:14px}
+  a{color:#38bdf8;text-decoration:none;font-weight:bold}
+  a:hover{text-decoration:underline}
+  .btn{display:inline-block;background:#38bdf8;color:#0f172a;padding:12px 25px;border-radius:25px;margin-top:15px}
+  footer{text-align:center;padding:30px;opacity:0.6;font-size:14px}
+</style>
 </head>
 <body>
-  <h1>Hola, soy futuro programador desde Varela</h1>
-  <p>Aprendiendo para trabajar remoto.</p>
-  <p>Mi objetivo: profesionalizarme en 2026.</p>
+<header>
+  <h1>Hola, soy Nicolas 👋</h1>
+  <p>Futuro programador desde Florencio Varela</p>
+  <p>Aprendiendo para trabajar remoto</p>
+</header>
+
+<div class="container">
+  <div class="card">
+    <h2>Sobre mí</h2>
+    <p>Soy de Varela, Buenos Aires. Empecé en 2026 con el objetivo de profesionalizarme y conseguir mi primer trabajo en tecnología. Me gusta aprender haciendo.</p>
+    <p style="margin-top:10px"><strong>Mi objetivo 2026:</strong> Convertirme en desarrollador web.</p>
+  </div>
+
+  <div class="card">
+    <h2>Habilidades</h2>
+    <div class="skills">
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>GitHub</span>
+      <span>Git</span>
+      <span>Aprendiendo JavaScript</span>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Proyectos</h2>
+    <p>🚀 <strong>Mi Portafolio Web</strong> - Mi primera página publicada con GitHub Pages.</p>
+    <p style="margin-top:10px">Más proyectos próximamente...</p>
+  </div>
+
+  <div class="card">
+    <h2>Contacto</h2>
+    <p>¿Querés hablar?</p>
+    <p>📧 GitHub: <a href="https://github.com/n1csay" target="_blank">github.com/n1csay</a></p>
+    <p style="margin-top:15px"><a class="btn" href="https://github.com/n1csay" target="_blank">Ver mi GitHub</a></p>
+  </div>
+</div>
+
+<footer>Hecho con ❤️ desde Varela - 2026</footer>
 </body>
 </html>
